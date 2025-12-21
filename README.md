@@ -18,6 +18,7 @@
 
 ## 🌟 Overview
 AuraCalc is a premium, all-in-one calculation suite designed to simplify everyday complex math. From financial planning to health tracking, it offers a hardware-accelerated experience with a stunning 3-way theme engine (Light, Dark, and System).
+
 🔗 **Live Demo:** [https://aura-calc.vercel.app/](https://aura-calc.vercel.app/)  
 📦 **GitHub Repo:** [https://github.com/Jaanvichouhan34/AuraCalc](https://github.com/Jaanvichouhan34/AuraCalc)
 
@@ -52,6 +53,6 @@ AuraCalc is a premium, all-in-one calculation suite designed to simplify everyda
      npm install
   4. **Launch Project**
      ```bash
-     npm run dev  ```
+     npm run dev  
   ---
-##📬 Connect With Me
+## 📬 Connect With Me
