@@ -19,8 +19,8 @@
 ## 🌟 Overview
 AuraCalc is a premium, all-in-one calculation suite designed to simplify everyday complex math. From financial planning to health tracking, it offers a hardware-accelerated experience with a stunning 3-way theme engine (Light, Dark, and System).
 
-🔗 **Live Demo:** [https://aura-calc.vercel.app/](https://aura-calc.vercel.app/)  
-📦 **GitHub Repo:** [https://github.com/Jaanvichouhan34/AuraCalc](https://github.com/Jaanvichouhan34/AuraCalc)
+🔗 **Live Demo:** [Click Here](https://aura-calc.vercel.app/)  
+📦 **GitHub Repo:** [Click Here](https://github.com/Jaanvichouhan34/AuraCalc)
 
 ## ✨ Key Features
 - **15+ Pro Calculators**: Real-time results for BMI, ROI, Loan EMI, Pregnancy, and more.
@@ -55,4 +55,9 @@ AuraCalc is a premium, all-in-one calculation suite designed to simplify everyda
      ```bash
      npm run dev  
   ---
-## 📬 Connect With Me
+## 📬 Contact
+
+Feel free to connect with me:
+
+- 🔗 [GitHub](https://github.com/Jaanvichouhan34)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/jaanvi-chouhan-b83158313)
