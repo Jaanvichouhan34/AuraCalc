@@ -1,16 +1,55 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🧮 AuraCalc.
 
-Currently, two official plugins are available:
+**The smarter way to compute 15+ metrics with precision and style.**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[![GitHub stars](https://img.shields.io/github/stars/Jaanvichouhan34/AuraCalc?color=blue&style=for-the-badge)](https://github.com/Jaanvichouhan34/AuraCalc/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
-## React Compiler
+[Explore AuraCalc Live](https://aura-calc.vercel.app/) • [Report Bug](https://github.com/Jaanvichouhan34/AuraCalc/issues)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+</div>
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🌟 Overview
+AuraCalc is a premium, all-in-one calculation suite designed to simplify everyday complex math. From financial planning to health tracking, it offers a hardware-accelerated experience with a stunning 3-way theme engine (Light, Dark, and System).
+
+## ✨ Key Features
+- **15+ Pro Calculators**: Real-time results for BMI, ROI, Loan EMI, Pregnancy, and more.
+- **Advanced Theme Engine**: Seamlessly switch between Light, Dark, or sync with your OS.
+- **Smooth Animations**: High-performance transitions using Framer Motion.
+- **Clean UI/UX**: Minimalist design focused on data clarity and ease of use.
+- **Smart Search**: Find the right tool instantly with live filtering.
+
+## 🛠️ Tech Stack
+- **Frontend**: React.js with Vite
+- **Styling**: Tailwind CSS (Utility-first design)
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Navigation**: React Router Dom
+
+## 📋 Available Calculators
+- **Health**: BMI, Pregnancy Due Date, Protein Intake, Period Tracker.
+- **Finance**: Loan Calculator, ROI Calculator, NPV Calculator, Salary Calculator.
+- **Utility**: Age Calculator, Percentage Calc, Unit Converter, Currency Calc.
+
+## 🚀 Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/Jaanvichouhan34/AuraCalc.git](https://github.com/Jaanvichouhan34/AuraCalc.git)
+   cd AuraCalc/frontend
+
+  2. **Install dependencies**
+      ```bash
+     npm install
+  4. **Launch Project**
+     ```bash
+      npm run dev
+
+##📬 Connect With Me
