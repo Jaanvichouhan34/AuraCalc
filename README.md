@@ -61,7 +61,3 @@ Feel free to connect with me:
 
 - 🔗 [GitHub](https://github.com/Jaanvichouhan34)  
 - 💼 [LinkedIn](https://www.linkedin.com/in/jaanvi-chouhan-b83158313)
-
-
-...
-...
