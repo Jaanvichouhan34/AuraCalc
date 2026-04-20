@@ -1,6 +1,7 @@
 # 🚀 AuraCalc v2.0 - Premium Calculation Suite
 
 ![AuraCalc Banner](https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=2000&h=600)
+[LIVE](https://aura-calc-20.vercel.app/)
 
 > "The smarter way to calculate over 50+ metrics instantly, beautifully, and securely."
 
