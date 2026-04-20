@@ -72,7 +72,7 @@ const Footer = () => {
             <span className="font-semibold ml-1">Jaanvi Chouhan</span>
           </div>
           <div className="text-sm text-gray-500 dark:text-gray-400">
-            &copy; {new Date().getFullYear()} AuraCalc. All rights reserved.
+            &copy; 2025 AuraCalc. All rights reserved.
           </div>
           <motion.button
             onClick={scrollToTop}

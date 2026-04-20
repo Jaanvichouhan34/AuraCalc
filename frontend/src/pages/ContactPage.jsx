@@ -11,16 +11,28 @@ const ContactPage = () => {
       setFormData({...formData, [e.target.name]: e.target.value});
    };
 
-   const handleSubmit = (e) => {
+   const handleSubmit = async (e) => {
       e.preventDefault();
-      // Simulate API call
-      setTimeout(() => {
-         setIsSubmitted(true);
-         toast.success('Message sent successfully!');
-         setFormData({ name: '', email: '', message: '' });
-         
-         setTimeout(() => setIsSubmitted(false), 3000);
-      }, 800);
+      try {
+        const response = await fetch("https://formspree.io/f/xdaylkzg", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "Accept": "application/json"
+          },
+          body: JSON.stringify(formData)
+        });
+        if (response.ok) {
+           setIsSubmitted(true);
+           toast.success('Message sent successfully!');
+           setFormData({ name: '', email: '', message: '' });
+           setTimeout(() => setIsSubmitted(false), 3000);
+        } else {
+           toast.error('Failed to send. Please try again.');
+        }
+      } catch (err) {
+         toast.error('Network error. Please try again.');
+      }
    };
 
   return (
