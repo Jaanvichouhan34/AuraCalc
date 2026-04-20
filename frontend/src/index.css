@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background: radial-gradient(ellipse at center, #FFF8F0 0%, #F0EAFB 100%);
+    background-attachment: fixed;
+  }
+  
+  .dark body {
+    background: radial-gradient(ellipse at center, #1A1630 0%, #0B0A14 100%);
+    background-attachment: fixed;
+  }
+}
