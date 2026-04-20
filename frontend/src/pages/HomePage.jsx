@@ -6,6 +6,7 @@ import { ThemeContext } from '../contexts/ThemeContext';
 import clsx from 'clsx';
 import AuraCalcHeroLight from '../components/AuraCalcHeroLight';
 import AuraCalcHeroDark from '../components/AuraCalcHeroDark';
+import AnimatedCounter from '../components/AnimatedCounter';
 
 const HomePage = () => {
   const { theme } = useContext(ThemeContext);
@@ -72,6 +73,41 @@ const HomePage = () => {
                {isDark ? <AuraCalcHeroDark /> : <AuraCalcHeroLight />}
             </div>
           </motion.div>
+        </div>
+      </section>
+
+      {/* Real-time Metrics Section */}
+      <section className="py-16 border-t border-b border-gray-100 dark:border-gray-800 bg-white/50 dark:bg-gray-900/40 relative z-20 backdrop-blur-sm">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-0 text-center md:divide-x divide-gray-200 dark:divide-gray-800">
+            <motion.div initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once:true }} className="flex flex-col justify-center items-center p-4">
+              <div className="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400 mb-2">
+                <AnimatedCounter to={50} suffix="+" duration={2.5} />
+              </div>
+              <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 uppercase tracking-widest">Calculators</div>
+            </motion.div>
+            
+            <motion.div initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once:true }} transition={{ delay: 0.1 }} className="flex flex-col justify-center items-center p-4">
+              <div className="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-indigo-400 mb-2">
+                <AnimatedCounter from={0} to={10} duration={2} />
+              </div>
+              <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 uppercase tracking-widest">Categories</div>
+            </motion.div>
+            
+            <motion.div initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once:true }} transition={{ delay: 0.2 }} className="flex flex-col justify-center items-center p-4">
+              <div className="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-purple-400 mb-2">
+                <AnimatedCounter from={0} to={100} suffix="%" duration={3} />
+              </div>
+              <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 uppercase tracking-widest">Local Privacy</div>
+            </motion.div>
+            
+            <motion.div initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once:true }} transition={{ delay: 0.3 }} className="flex flex-col justify-center items-center p-4">
+              <div className="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-green-400 mb-2">
+                 <AnimatedCounter from={250} to={0} suffix="ms" duration={2} />
+              </div>
+              <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 uppercase tracking-widest">Server Latency</div>
+            </motion.div>
+          </div>
         </div>
       </section>
 
