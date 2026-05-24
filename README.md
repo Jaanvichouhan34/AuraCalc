@@ -66,7 +66,8 @@ AuraCalc/
 ```
 
 ---
-
+![AuraCalc Banner](https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=2000&h=600)
+[LIVE](https://aura-calc-20.vercel.app/)
 ## Calculator Modules
 
 ### Health & Fitness (9 calculators)
