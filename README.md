@@ -141,7 +141,9 @@ Distributed under the **MIT License**. See `LICENSE` for full terms.
 [![GitHub](https://img.shields.io/badge/GitHub-Jaanvichouhan34-181717?style=flat-square&logo=github)](https://github.com/Jaanvichouhan34)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-jaanvi--chouhan-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/jaanvi-chouhan)
 [![Live Demo](https://img.shields.io/badge/Live-AuraCalc-6366f1?style=flat-square)](https://aura-calc-20.vercel.app/)
+<div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=120&section=footer" />
 *If AuraCalc saves you time, give the repo a ⭐*
 
 </div>
