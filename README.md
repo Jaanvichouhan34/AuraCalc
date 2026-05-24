@@ -1,104 +1,130 @@
-# 🚀 AuraCalc v2.0 - Premium Calculation Suite
+# AuraCalc v2.0 — Premium Calculation Suite
 
-![AuraCalc Banner](https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=2000&h=600)
-[LIVE](https://aura-calc-20.vercel.app/)
+> Production-grade multi-domain calculator platform with AI assistance, built on React 19.
 
-> "The smarter way to calculate over 50+ metrics instantly, beautifully, and securely."
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react) ![Vite](https://img.shields.io/badge/Vite-5.x-646CFF?logo=vite) ![License](https://img.shields.io/badge/License-MIT-green) ![Live](https://img.shields.io/badge/Deploy-Vercel-black?logo=vercel)
 
-AuraCalc transitions the traditional, boring utility toolkit into a stunning, highly optimized **Full-Stack Single Page Application** with 3D elements, glassmorphic design, and a fully functional AI assistant.
-
----
-
-## ✨ Features at a Glance
-
-AuraCalc v2.0 is built to highlight high-end modern frontend capabilities:
-
-- 🧮 **50+ Powerful Calculators:** Ranging from complex engineering and academic equations (Force, GPA, Standard Deviation) to complex financial modeling (Compound Interest, SIP, Margin) and vital health tracking (BMI, Ovulation).
-- 🤖 **AuraBot AI Assistant:** An intelligently mapped, floating context-aware ChatBot. Ask it about any calculator or UI feature, and it will guide you!
-- 🌙 **Persistent Theme Toggling:** Fully controlled System, Dark, and Light mode rendering using React Context APIs mapped to `localStorage` and CSS DOM injections.
-- 🎨 **Framer Motion Animations:** Fluid page transitions, modal blur-scale entries, hover physics on layout cards, and pulsing notification indicators.
-- ⚡ **Zero-Latency Processing:** All complex formulas are solved instantly on the client side using pure JavaScript logic, guaranteeing absolute privacy for your data.
-- 📱 **100% Mobile Responsive:** Implemented a mobile-first Tailwind CSS approach featuring collapsible hamburger menus, bottom-sheet style layouts for smaller screens, and tap-friendly touch targets.
+**[Live Demo](https://aura-calc-20.vercel.app/) · [Report Bug](https://github.com/Jaanvichouhan34/AuraCalc/issues) · [Request Feature](https://github.com/Jaanvichouhan34/AuraCalc/issues)**
 
 ---
 
-## 🛠️ The Tech Stack
+## Overview
 
-AuraCalc leverages cutting-edge React ecosystem tools to deliver production-level performance:
-
-| Category | Technology | Purpose |
-| :--- | :--- | :--- |
-| **Core Framework** | React 19 + Vite | High-speed component rendering and HMR. |
-| **Routing Architecture** | React Router DOM v6 | Seamless multi-page navigation without refreshing. |
-| **Styling Engine** | Tailwind CSS v4 + `clsx` | Utility-first, robust responsive design and conditional styling. |
-| **Animation Framework**| Framer Motion | Physics-based animation handling and unmount transitions. |
-| **Iconography** | Lucide React | Clean, scalable, lightweight SVG icons. |
-| **Notifications** | React Hot Toast | Beautiful, non-blocking toast popups for form submissions. |
+AuraCalc v2.0 is a fully client-side, single-page application delivering 50+ domain-specific calculators across health, finance, engineering, and education verticals. It features a context-aware AI assistant, physics-based animations, persistent theme management, and a zero-login privacy architecture — purpose-built to demonstrate production-level React engineering and UI/UX discipline.
 
 ---
 
-## 📚 Structure & Layout
+## Features
 
-The project structure is meticulously organized following enterprise frontend standards:
+| Feature | Description |
+|---|---|
+| 50+ Calculator Modules | Engineering, finance, health, education, and utility domains. All solved instantly on the client. |
+| AuraBot AI Assistant | Context-aware floating chatbot with domain-mapped responses. |
+| Persistent Theme Engine | System / Dark / Light mode via React Context, localStorage, and live CSS injection. |
+| Privacy-First Architecture | No login, no cookies, no telemetry. All inputs are in-memory only. |
+| Framer Motion Animations | Page transitions, modal blur-scale entries, hover physics, pulsing indicators. |
+| Mobile-First Responsive | Tailwind v4 layout with hamburger nav, bottom-sheet modals, tap-optimized targets. |
 
-```text
+---
+
+## Tech Stack
+
+| Layer | Technology | Version | Role |
+|---|---|---|---|
+| Core framework | React + Vite | 19 / 5.x | Component rendering, HMR, optimized build |
+| Routing | React Router DOM | v6 | Client-side SPA navigation |
+| Styling | Tailwind CSS + clsx | v4 | Utility-first responsive design |
+| Animation | Framer Motion | latest | Physics-based transitions |
+| Icons | Lucide React | latest | Scalable SVG icon system |
+| Notifications | React Hot Toast | latest | Non-blocking toast feedback |
+
+---
+
+## Repository Structure
+
+```
 AuraCalc/
 ├── src/
-│   ├── assets/           # 3D optimized imagery for light/dark modes
-│   ├── calculators/      # Mathematical logic modules (health, finance, utility)
-│   ├── components/       # Reusable UI like Navbar, Footer, ChatBot, Modals
-│   ├── contexts/         # Global state providers (ThemeContext)
-│   ├── pages/            # View-level route components (Home, Help, Calculators)
-│   ├── utils/            # Shared logic (Animations definitions, ChatBot DB)
-│   ├── App.jsx           # Master route definitions
-│   └── main.jsx          # Setup and DOM entry
+│   ├── assets/           # Optimized 3D imagery, light/dark mode variants
+│   ├── calculators/      # Pure JS formula modules (health, finance, utility)
+│   ├── components/       # Shared UI: Navbar, Footer, ChatBot, Modals
+│   ├── contexts/         # Global state providers — ThemeContext
+│   ├── pages/            # Route-level views: Home, Help, Calculators
+│   ├── utils/            # Animation configs, AuraBot knowledge base
+│   ├── App.jsx           # Top-level route declarations
+│   └── main.jsx          # ReactDOM entry point, provider wrapping
+├── index.html
+├── vite.config.js
+├── tailwind.config.js
+└── package.json
 ```
 
 ---
 
-## 🚀 Getting Started Locally
+## Calculator Modules
 
-Getting the development environment running requires zero massive backend dependencies:
+### Health & Fitness
+BMI / BMR / TDEE · Protein & hydration intake · Ideal body weight · Pregnancy due date · Period & ovulation tracker
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Jaanvichouhan34/AuraCalc.git
-   cd AuraCalc/frontend
-   ```
+### Finance & Business
+Loan EMI & amortization · Compound / simple interest · Mutual fund SIP · ROI & profit margin · GST, discount, currency
 
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
+### Engineering & Science
+Force, velocity, power · Pressure, density · Ohm's law · Concrete, paint, tile area
 
-3. **Start the local Vite server:**
-   ```bash
-   npm run dev
-   ```
-   *Your app will instantly be live at `http://localhost:5173`.*
+### Education & Utilities
+GPA & grade weighting · Attendance tracker · Scientific & fraction math · Binary converter & subnetting · Fuel cost & mileage
 
 ---
 
-## 💻 Included Applications
+## Local Development
 
-### 🏥 Health & Fitness Module
-- BMI, BMR, TDEE, Protein Intake, Water Hydration, Pregnancy Due Date, Period Tracker, Ideal Weight
+**Prerequisites:** Node.js ≥ 18.x, npm ≥ 9.x
 
-### 💰 Finance & Business Module
-- Loan EMI, Investment ROI, Compound Interest, Simple Interest, Mutual Fund SIP, Net Salary Estimator, GST, Fast Discount, Currency Converter, Profit Margin
+```bash
+# 1. Clone the repository
+git clone https://github.com/Jaanvichouhan34/AuraCalc.git
+cd AuraCalc/frontend
 
-### 🔧 Utilities & Mathematics
-- **Mathematics:** Scientific, Fractions, Ratio, Average, Standard Deviation
-- **Engineering:** Force, Velocity, Power, Pressure, Density, Ohms Law
-- **Construction:** Concrete Slab, Paint Area, Tile Flooring
-- **Education:** GPA, Grades Weighting, Attendance tracking
-- **Tech & Travel:** Binary Converters, Subnetting, Fuel Cost, Mileage, Random Gen
+# 2. Install dependencies
+npm install
+
+# 3. Start the Vite dev server
+npm run dev
+# App served at http://localhost:5173
+
+# 4. Production build (optional)
+npm run build    # Outputs to /dist
+npm run preview  # Preview the production build locally
+```
+
+> **No environment variables required.** All computation runs in the browser. There is no backend, no API key, and no database to configure.
 
 ---
 
-## 🛡️ Privacy First
-AuraCalc never forces you to log in. We do not use cookies to track your interactions, we do not log your health measurements, and your financial entries are wiped the second you refresh the page.
+## Privacy & Data Handling
+
+AuraCalc operates under a zero-data-collection policy. No authentication, no cookies, no analytics tracking. All user inputs are ephemeral — they exist in component state only and are discarded on page refresh. No data ever leaves the browser.
 
 ---
 
-> Designed & Engineered by **Jaanvi Chouhan**. Built to showcase high-level React competencies, aesthetic UI/UX sensibilities, and clean codebase architecture for placement considerations.
+## Contributing
+
+Contributions are welcome. Please open an issue before submitting a pull request for significant changes. Ensure new calculator modules include unit tests for formula logic and follow the existing `src/calculators/` naming conventions.
+
+```bash
+# Fork → feature branch → pull request
+git checkout -b feat/calculator-name
+git commit -m "feat: add [calculator-name] module"
+git push origin feat/calculator-name
+```
+
+---
+
+## License
+
+Distributed under the **MIT License**. See `LICENSE` for full terms.
+
+---
+
+*Designed & engineered by **Jaanvi Chouhan** · [GitHub](https://github.com/Jaanvichouhan34) · [LinkedIn](https://linkedin.com/in/jaanvi-chouhan) · [Live Demo](https://aura-calc-20.vercel.app/)*
