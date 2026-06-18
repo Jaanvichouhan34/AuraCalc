@@ -6,9 +6,12 @@
 [![Vite](https://img.shields.io/badge/Vite_5-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
 [![Tailwind](https://img.shields.io/badge/Tailwind_v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![License](https://img.shields.io/badge/License-MIT-a78bfa?style=for-the-badge)](LICENSE)
+<!-- 
+
 [![Live](https://img.shields.io/badge/Live-Vercel-000000?style=for-the-badge&logo=vercel)](https://aura-calc-20.vercel.app/)
 
 **[Live Demo](https://aura-calc-20.vercel.app/) · [Report Bug](https://github.com/Jaanvichouhan34/AuraCalc/issues) · [Request Feature](https://github.com/Jaanvichouhan34/AuraCalc/issues)**
+-->
 
 </div>
 
