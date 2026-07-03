@@ -1,5 +1,6 @@
 ....
 
+
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=AuraCalc+v2.0&fontSize=72&fontColor=fff&animation=twinkling&fontAlignY=40&desc=Premium+Calculation+Suite+%C2%B7+React+19+%C2%B7+Zero+Backend&descAlignY=65&descSize=18" />
